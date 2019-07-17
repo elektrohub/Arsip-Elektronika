@@ -9087,7 +9087,7 @@ straight</description>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="LED_ASP" library="adafruit" deviceset="LED" device="SMT1206" value="BLUE_SMT"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="FTDI" library="adafruit" deviceset="PINHD-1X6" device="" value="6H"/>
+<part name="PIN_SERIAL" library="adafruit" deviceset="PINHD-1X6" device="" value="6H"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="0204/7" value="10K"/>
@@ -9108,13 +9108,15 @@ straight</description>
 <plain>
 <text x="71.12" y="60.96" size="1.778" layer="97">SPI</text>
 <text x="30.48" y="144.78" size="1.778" layer="97">Oscillator MCU</text>
-<text x="30.48" y="190.5" size="1.778" layer="97">FTDI Serial</text>
+<text x="30.48" y="190.5" size="1.778" layer="97">USB Serial</text>
 <text x="50.8" y="177.8" size="1.4224" layer="97">DTR</text>
 <text x="50.8" y="175.26" size="1.4224" layer="97">RX</text>
 <text x="50.8" y="172.72" size="1.4224" layer="97">TX</text>
 <text x="50.8" y="167.64" size="1.4224" layer="97">RESET</text>
-<text x="30.48" y="104.14" size="1.778" layer="97">I2S Pull-UP</text>
+<text x="30.48" y="104.14" size="1.778" layer="97">I2C Pull-UP</text>
 <text x="27.94" y="53.34" size="1.778" layer="97">LED DIGITAL 13</text>
+<text x="60.96" y="167.64" size="1.778" layer="97">&lt;&lt; Mostly not used</text>
+<text x="60.96" y="177.8" size="1.778" layer="97">&lt;&lt; Mostly not used</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -9164,7 +9166,7 @@ straight</description>
 <attribute name="VALUE" x="125.603" y="27.94" size="0.8128" layer="96" rot="R90"/>
 </instance>
 <instance part="GND9" gate="1" x="121.92" y="12.7"/>
-<instance part="FTDI" gate="A" x="48.26" y="170.18"/>
+<instance part="PIN_SERIAL" gate="A" x="48.26" y="170.18"/>
 <instance part="P+5" gate="VCC" x="35.56" y="185.42"/>
 <instance part="GND6" gate="1" x="35.56" y="157.48"/>
 <instance part="R5" gate="G$1" x="48.26" y="86.36" smashed="yes" rot="MR270">
@@ -9245,7 +9247,7 @@ straight</description>
 <wire x1="121.92" y1="25.4" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="FTDI" gate="A" pin="6"/>
+<pinref part="PIN_SERIAL" gate="A" pin="6"/>
 <wire x1="45.72" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="35.56" y1="165.1" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
@@ -9321,7 +9323,7 @@ straight</description>
 <wire x1="48.26" y1="91.44" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="FTDI" gate="A" pin="4"/>
+<pinref part="PIN_SERIAL" gate="A" pin="4"/>
 <wire x1="45.72" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <wire x1="35.56" y1="170.18" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
@@ -9387,7 +9389,7 @@ straight</description>
 <label x="76.2" y="35.56" size="1.27" layer="95" font="vector" rot="R180"/>
 </segment>
 <segment>
-<pinref part="FTDI" gate="A" pin="5"/>
+<pinref part="PIN_SERIAL" gate="A" pin="5"/>
 <wire x1="45.72" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
 <label x="38.1" y="167.64" size="1.27" layer="95" font="vector" rot="R180"/>
 </segment>
@@ -9443,7 +9445,7 @@ straight</description>
 <label x="175.26" y="182.88" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="FTDI" gate="A" pin="1"/>
+<pinref part="PIN_SERIAL" gate="A" pin="1"/>
 <wire x1="45.72" y1="177.8" x2="38.1" y2="177.8" width="0.1524" layer="91"/>
 <label x="38.1" y="177.8" size="1.27" layer="95" font="vector" rot="R180"/>
 </segment>
@@ -9455,7 +9457,7 @@ straight</description>
 <label x="223.52" y="81.28" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="FTDI" gate="A" pin="3"/>
+<pinref part="PIN_SERIAL" gate="A" pin="3"/>
 <wire x1="45.72" y1="172.72" x2="38.1" y2="172.72" width="0.1524" layer="91"/>
 <label x="38.1" y="172.72" size="1.27" layer="95" font="vector" rot="R180"/>
 </segment>
@@ -9467,7 +9469,7 @@ straight</description>
 <label x="223.52" y="78.74" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="FTDI" gate="A" pin="2"/>
+<pinref part="PIN_SERIAL" gate="A" pin="2"/>
 <wire x1="45.72" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
 <label x="38.1" y="175.26" size="1.27" layer="95" font="vector" rot="R180"/>
 </segment>
