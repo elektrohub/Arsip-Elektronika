@@ -21865,14 +21865,6 @@ D13</text>
 <text x="358.14" y="40.64" size="5.08" layer="91">freeDSP 1.1
 
 www.freedsp.cc</text>
-<text x="40.64" y="215.9" size="2.54" layer="91" font="vector" distance="100">This work and all other materials 
-under https://github.com/freeDSP 
-are licensed under a Creative Commons 
-Attribution Share-Alike 4.0 license. 
-This allows for both personal and 
-commercial derivative works, as long 
-as they credit freeDSP and release 
-their designs under the same license.</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="241.3" y="48.26"/>
@@ -23595,33 +23587,6 @@ their designs under the same license.</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,259.08,48.26,IC1,VCC,+3V3,,,"/>
-<approved hash="104,1,248.92,167.64,IC3G$1,V+,+3V3,,,"/>
-<approved hash="104,1,264.16,167.64,IC3G$1,V-,GND,,,"/>
-<approved hash="208,1,170.18,231.14,+3V3,sup,,,,"/>
-<approved hash="208,1,129.54,55.88,+3V3,sup,,,,"/>
-<approved hash="208,1,165.1,185.42,+3V3,sup,,,,"/>
-<approved hash="208,1,213.36,190.5,+3V3,sup,,,,"/>
-<approved hash="208,1,259.08,60.96,+3V3,sup,,,,"/>
-<approved hash="208,1,124.46,83.82,+3V3,sup,,,,"/>
-<approved hash="208,1,312.42,208.28,+3V3,sup,,,,"/>
-<approved hash="208,1,294.64,220.98,+3V3,out,,,,"/>
-<approved hash="208,1,259.08,96.52,+3V3,sup,,,,"/>
-<approved hash="208,1,243.84,167.64,+3V3,sup,,,,"/>
-<approved hash="208,1,350.52,223.52,+3V3,sup,,,,"/>
-<approved hash="208,1,241.3,99.06,+3V3,sup,,,,"/>
-<approved hash="113,1,155.177,29.3412,JP1,,,,,"/>
-<approved hash="113,1,312.742,191.77,LED1,,,,,"/>
-<approved hash="113,1,266.7,83.4305,S1,,,,,"/>
-<approved hash="113,1,95.2077,179.201,JP8,,,,,"/>
-<approved hash="113,1,97.7477,153.801,JP9,,,,,"/>
-<approved hash="113,1,86.36,211.895,SV2,,,,,"/>
-<approved hash="113,1,33.2571,69.9812,JP3,,,,,"/>
-<approved hash="113,1,68.3429,69.9812,JP5,,,,,"/>
-<approved hash="113,1,361.908,199.521,JP2,,,,,"/>
-<approved hash="113,1,223.283,34.4212,JP4,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
