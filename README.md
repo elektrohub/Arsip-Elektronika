@@ -5,4 +5,6 @@ Arsip arsip hobi yang diremajakan ulang (update), disalin ke dalam format Eagle-
 
 Semua skematik dan pcb 100% jalan
 
-![alt text](https://raw.githubusercontent.com/elektrohub/Arsip-Elektronika/master/Images/MadeIt.png "Hasil fabrikasi")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/elektrohub/Arsip-Elektronika/master/Images/ATMega32Display.jpg"/>
+</p>
