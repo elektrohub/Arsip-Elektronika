@@ -2182,7 +2182,7 @@ design rules under a new name.</description>
 <element name="P15" library="ioshub" package="PIN-BIG" value="PIN-BIG1X" x="4.445" y="43.815"/>
 <element name="P16" library="ioshub" package="PIN-BIG" value="PIN-BIG1X" x="6.985" y="43.815"/>
 <element name="P17" library="ioshub" package="PIN-BIG" value="PIN-BIG1X" x="1.905" y="43.815"/>
-<element name="FTDI" library="adafruit" package="1X06" value="6H" x="2.8575" y="13.97" rot="R270"/>
+<element name="SERIAL" library="adafruit" package="1X06" value="6H" x="2.8575" y="13.97" rot="R270"/>
 <element name="P9" library="ioshub" package="PIN-BIG" value="PIN-BIG1X" x="9.525" y="40.3225"/>
 <element name="P18" library="ioshub" package="PIN-BIG" value="PIN-BIG1X" x="4.445" y="40.3225"/>
 <element name="P19" library="ioshub" package="PIN-BIG" value="PIN-BIG1X" x="6.985" y="40.3225"/>
@@ -2236,7 +2236,7 @@ design rules under a new name.</description>
 <contactref element="LED_13" pad="C"/>
 <contactref element="LED_ASP" pad="C"/>
 <contactref element="P17" pad="P$1"/>
-<contactref element="FTDI" pad="6"/>
+<contactref element="SERIAL" pad="6"/>
 <contactref element="P20" pad="P$1"/>
 <contactref element="P24" pad="P$1"/>
 <contactref element="X1" pad="4"/>
@@ -2429,7 +2429,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="P14" pad="P$1"/>
-<contactref element="FTDI" pad="4"/>
+<contactref element="SERIAL" pad="4"/>
 <contactref element="P9" pad="P$1"/>
 <contactref element="P21" pad="P$1"/>
 <contactref element="PWR_FROM_USB" pad="2"/>
@@ -2739,7 +2739,7 @@ design rules under a new name.</description>
 <contactref element="C12" pad="2"/>
 <contactref element="VOLT_HEADER" pad="6"/>
 <contactref element="P4" pad="P$1"/>
-<contactref element="FTDI" pad="5"/>
+<contactref element="SERIAL" pad="5"/>
 <wire x1="64.9224" y1="13.0302" x2="64.9224" y2="14.4018" width="0.254" layer="1"/>
 <wire x1="65.151" y1="12.8016" x2="64.9224" y2="13.0302" width="0.254" layer="1"/>
 <wire x1="65.151" y1="11.8872" x2="65.151" y2="12.8016" width="0.254" layer="1"/>
@@ -2930,7 +2930,7 @@ design rules under a new name.</description>
 <signal name="RX">
 <contactref element="IC2" pad="14"/>
 <contactref element="DIGITAL8_HEADER" pad="8"/>
-<contactref element="FTDI" pad="2"/>
+<contactref element="SERIAL" pad="2"/>
 <wire x1="55.5498" y1="18.5166" x2="55.5498" y2="18.9738" width="0.254" layer="1"/>
 <wire x1="53.2638" y1="16.2306" x2="55.5498" y2="18.5166" width="0.254" layer="1"/>
 <wire x1="42.9768" y1="16.2306" x2="53.2638" y2="16.2306" width="0.254" layer="1"/>
@@ -2950,7 +2950,7 @@ design rules under a new name.</description>
 <signal name="TX">
 <contactref element="DIGITAL8_HEADER" pad="7"/>
 <contactref element="IC2" pad="15"/>
-<contactref element="FTDI" pad="3"/>
+<contactref element="SERIAL" pad="3"/>
 <wire x1="58.293" y1="15.0876" x2="58.293" y2="19.01825" width="0.254" layer="1"/>
 <wire x1="54.4068" y1="11.2014" x2="58.293" y2="15.0876" width="0.254" layer="1"/>
 <wire x1="46.863" y1="11.2014" x2="54.4068" y2="11.2014" width="0.254" layer="1"/>
@@ -3221,7 +3221,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DTR">
 <contactref element="C12" pad="1"/>
-<contactref element="FTDI" pad="1"/>
+<contactref element="SERIAL" pad="1"/>
 <wire x1="8.001" y1="25.3746" x2="34.0614" y2="25.3746" width="0.254" layer="1"/>
 <wire x1="2.9718" y1="20.3454" x2="8.001" y2="25.3746" width="0.254" layer="1"/>
 <wire x1="34.0614" y1="25.3746" x2="34.163" y2="25.397" width="0.254" layer="1"/>
